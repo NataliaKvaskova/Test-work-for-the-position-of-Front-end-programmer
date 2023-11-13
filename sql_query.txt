@@ -1,0 +1,47 @@
+SELECT 
+   'Январь' AS 'Месяц',
+    31 AS 'Дней в месяце'
+UNION ALL
+SELECT 
+    'Февраль' AS 'Месяц',
+    28 AS 'Дней в месяце'
+UNION ALL
+SELECT 
+    'Март' AS 'Месяц',
+    31 AS 'Дней в месяце'
+UNION ALL
+SELECT 
+    'Апрель' AS 'Месяц',
+    30 AS 'Дней в месяце'
+UNION ALL
+SELECT 
+    'Май' AS 'Месяц',
+    31 AS 'Дней в месяце'
+UNION ALL
+SELECT 
+    'Июнь' AS 'Месяц',
+    30 AS 'Дней в месяце'
+UNION ALL
+SELECT 
+    'Июль' AS 'Месяц',
+    31 AS 'Дней в месяце'
+UNION ALL
+SELECT 
+    'Август' AS 'Месяц',
+    31 AS 'Дней в месяце'
+UNION ALL
+SELECT 
+    'Сетнятбрь' AS 'Месяц',
+    30 AS 'Дней в месяце'
+UNION ALL
+SELECT 
+    'Октябрь' AS 'Месяц',
+    31 AS 'Дней в месяце'
+UNION ALL
+SELECT 
+    'Ноябрь' AS 'Месяц',
+    30 AS 'Дней в месяце'
+UNION ALL
+SELECT 
+    'Декабрь' AS 'Месяц',
+    31 AS 'Дней в месяце';

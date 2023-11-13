@@ -1,0 +1,42 @@
+body{
+  width: 99.8%;
+  height: 100%;
+  overflow: hidden;
+}
+.header{
+  height: 50px;
+  width: 100%;
+  border: .5px solid red;
+}
+.section-chat{
+  width: 100%;
+  height: -moz-calc(100vh - 155px);  /*для Firefox до версии 16 */
+  height: -webkit-calc(100vh - 155px); /*для Chrome до версии 26, Safari 6 */
+  height: calc(100vh - 155px); /*с учетом толщины границ*/
+}
+.section-chat__block{
+  overflow: auto;
+  height: 100%;
+}
+.block-user{
+  width: 200px;
+  float: left;
+  border: .5px solid orange;
+}
+.block-msg-read{
+  width: -moz-calc(100vw - 210px);  /*для Firefox до версии 16 */;
+  width: -webkit-calc(100vw - 210px); /*для Chrome до версии 26, Safari 6 */
+  width: calc(100vw - 210px);
+  float: right;
+  border: .5px solid purple;
+}
+.footer{
+  height: 100px;
+  width: 100%;
+  border: .5px solid green;
+}
+.footer__txtInput{
+  border: none;
+  width: 99.5%;
+  height: 90%;
+}
