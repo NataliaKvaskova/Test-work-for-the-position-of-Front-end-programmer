@@ -7,5 +7,6 @@
    * Запрос реализован через конструкцию SELECT ... AS ... UNION ALL, которая позволяет выполнить задание бз привязки к таблицам и БД;  
    [Посмотреть код](https://github.com/NataliaKvaskova/Test-work-for-the-position-of-Front-end-programmer/blob/main/sql_query.txt "Нажмите, чтобы посмотреть код")
 3. **JS**
-   * Реализована функция, которая выводит сообщение консоль после полной (а не только DOM) загрузки документа.
+   * Реализована функция, которая выводит сообщение консоль после полной (а не только DOM) загрузки документа.  
+   [Посмотреть код](https://github.com/NataliaKvaskova/Test-work-for-the-position-of-Front-end-programmer/blob/main/js_test_exercise.js "Нажмите, чтобы посмотреть код")
 
